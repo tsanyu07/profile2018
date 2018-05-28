@@ -1,0 +1,104 @@
+@media(max-width:1800px){
+
+}
+
+
+@media(max-width:1200px){
+
+}
+
+
+@media(max-width:1100px){
+   .banner{padding-top: 65%;}
+   .ban_btn1{width:16%;right:22%;}
+   .ban_btn2{width:16%;right:22%;}
+   .tit{width:90%;}
+}
+
+@media(max-width:1000px){
+   
+
+
+}
+
+@media(max-width:960px){
+   body{min-width:auto;min-width:initial;}
+   section{width:100%;}
+   .white{width:100%;overflow: hidden;padding:50px;}
+   .white:before{display: none;}
+   .white:after{display: none;}
+   .white2:before{display: none;}
+   .white2:after{display: none;}
+   .img1{width:300px;top:0;left:-30px;}
+   .img2{width: 380px;top:-25px;right:-40px;}
+   .con{padding:0;}
+  
+}
+
+@media(max-width:822px){
+    .form{padding:40px 50px;}
+}
+
+@media(max-width:760px){
+	.white{padding: 50px 20px;}
+	.tit{width:280px;}
+	.img1{width:260px;}
+  .img2{width: 360px;top:15px;}
+  .magic-radio + label, .magic-checkbox + label{margin-right:12px;}
+  .threebtn .btn p{font-size: 17px;right:7%;}
+  .txt1-1{padding-left: 264px;}
+
+}
+
+@media(max-width:730px){
+	.threebtn .btn p{font-size: 16px;right:5%;}
+}
+
+@media(max-width:700px){
+    dd,dt{display: block;width:100%;}
+    dt{margin-bottom: 8px;margin-top:16px;}
+    .form{padding: 40px;}
+    .banner{display: none;}
+    .banner_s{display: block;padding-top: 133%;/*position: absolute;width:100%;height: 100%;*/}
+    .ban_btn1{width:32%;right:34%;top:46%;}
+    .ban_btn2{width:32%;right:9%;bottom:3%;top:initial;}
+}
+
+@media(max-width:650px){
+    .img1,.img2{display: none;}
+    .txt1-1,.txt2-1,.txt2-2{width:100%;}
+    .threebtn .btn{width:40%;margin-bottom: 20px;}
+    .threebtn .btn p{right:7%;}
+    .txt1-1{padding-left: 0px;margin-bottom: 40px;}
+}
+
+
+@media(max-width:560px){
+    .threebtn .btn{width:45%;}
+    .form h3{margin-bottom:10px;}
+}
+
+
+@media(max-width:500px){
+    .threebtn .btn{width:250px;margin-right:0;}
+    .threebtn .btn p{right:15%;}
+    .tit{width:70%;}
+    dd br{display: initial;}
+    .channel_pic{width:120px;height: 120px;}
+}
+
+@media(max-width:400px){
+    .form{padding:40px 30px;}
+}
+
+@media(max-width:380px){
+}
+
+
+@media(max-width:350px){
+
+}
+
+@media(max-width:347px){
+
+}

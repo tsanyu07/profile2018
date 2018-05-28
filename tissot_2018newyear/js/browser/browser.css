@@ -1,0 +1,20 @@
+.old_ie{border:2px solid #333;position: fixed;z-index: 999999;border-radius:10px;background: url(bg_op.png) repeat;width: 500px;height: 300px;left: 50%;margin-left: -250px;top: 50%;margin-top: -150px;color: #fff;text-align: center;padding: 45px;line-height: 1.5;}
+.old_ie .close{position: absolute;top: 10px;right: 10px;cursor: pointer;color:#999;}
+.old_ie strong{color: #ff0;display: block;margin-bottom: 15px;font-size: 1.5em;}
+.old_ie p{margin-bottom: 30px;}
+.old_ie ul{text-align: center;}
+.old_ie li{display: inline-block;vertical-align: top;padding:5px 15px;}
+.old_ie li img{max-width: 100%;}
+.old_ie li + li{border-left: 1px dashed #333;}
+.old_ie a{display: block;width: 50px;height: 50px;}
+.old_ie span{font-size: 0.8em;}
+
+@media(max-width:670px){
+	.old_ie strong{margin-bottom: 5px;}
+	.old_ie{width: 380px;margin-left: -190px;font-size: 14px;padding: 30px;height: 240px;margin-top: -120px;}
+	.old_ie li{padding:5px 10px;}
+	.old_ie a{display: block;width: 35px;height: 35px;}
+}
+@media(max-width:450px){
+	.old_ie{width: 290px;margin-left: -145px;padding:30px 20px;font-size: 13px;}
+}

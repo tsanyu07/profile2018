@@ -1,0 +1,16 @@
+.scroll_content {
+   width: 800px;
+   /*m-a*/
+}
+
+.scroll_content .demo .inner-content {
+    border: 1px solid #CCC;
+    max-height: 170px;
+    width: 600px;
+}
+
+.scroll_content .demo > div {
+    max-height: 250px;
+    overflow: auto;
+
+}

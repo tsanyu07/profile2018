@@ -1,0 +1,326 @@
+html,body{width:100%;text-align:center;background: #fcfaf2;}
+body{min-width:1000px}
+.wrap{position: relative;}
+header{height:40px;margin:auto;display:block;}
+.main{}
+.content{margin:auto}
+.block{width:1000px;margin:auto;position:relative;display:block}
+footer{position:relative;clear:both;display:block}
+
+/*//////////header//////////*/
+header{ position: relative; z-index: 9999; background: url(../images/hd_bg.jpg) top left repeat-x;}
+header .logo { width: 198px; height: 24px; margin-top: 8px; float: left; background: url(../images/logo.jpg) no-repeat; }
+
+@media(max-width:1050px){
+	header .block{padding:0 10px;}
+	body{min-width: auto;min-width: initial;}
+	.block{width:100%;}
+}
+
+nav{background: #0d7860;line-height: 1;padding: 18px;}
+nav.fixed{width: 100%;position: fixed;top: 0;left: 0;z-index: 999;}
+nav ul{font-size: 0;}
+nav ul > li{display: inline-block;font-size: 18px;}
+nav ul > li a{color: #fff;padding:0 30px;}
+nav ul > li a:hover{color: #fff;}
+
+@media(max-width:1050px){
+	nav ul > li{font-size: 16px;}
+	nav ul > li a{padding: 15px;}
+}
+@media(max-width:720px){
+	nav ul > li{font-size: 14px;}
+	nav ul > li a{padding: 10px;}
+}
+@media(max-width:600px){
+	nav{display: none;}
+}
+
+
+/*//////////footer//////////*/
+footer {background-image: url(../images/footer_background.gif);color: #fff;}
+footer .block{padding:0 20px;}
+footer .top {background-color: #f7f7f7;}
+footer .top ul {max-width: 1000px;margin: 0 auto;color: #464646;vertical-align: middle;}
+footer .top ul li {display: inline-block;letter-spacing: -0.01em;margin: 20px 0;}
+footer .top ul .col-warning {width: 278px;height: 31px;background: url(../images/footer-cardWarning.jpg) no-repeat;}
+footer .top ul .col-rate {width: 65%;max-width: 900px;float: right;font-size: 14px;line-height: 22px;text-align: justify;}
+
+footer .link { font-size: 13px; margin: auto;text-align: center;padding-top: 20px;}
+footer .link li{display: inline-block;letter-spacing: 0.05em;}
+footer .link { font-size: 13px; margin: auto;text-align: center;padding:20px 0;line-height: 1.5;}
+footer .link a{color: #fff;}
+
+
+@media(max-width:900px){
+	.footer .top ul li{margin: 0;}
+	.footer .top ul .col-warning {width: 100%;background-position: center;margin: 20px 0 0 0;}
+	.footer .top ul .col-rate{width: 100%;}
+	.footer .top ul .col-rate div {width: 90%;margin: 0 auto;margin-top: 10px;margin-bottom: 10px;}
+}
+@media(max-width:400px){
+	.footer .top ul{margin:0 -20px;}
+}
+
+.banner{width: 100%;overflow: hidden;}
+.banner .block{width: 100%;padding-top: 45%;}
+.banner .pic{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+@media(max-width:900px){
+	.banner .block{padding-top: 60%;}
+}
+@media(max-width:450px){
+	.banner .pic{height: 120%;top: -10%;}
+}
+
+.con h2{font-size: 36px;color: #a00114;line-height: 1.2;margin-bottom: 5px;}
+.con a.pink_btn{background: #ff6b8b;}
+.con a.green_btn{background: #0d7860;}
+.con .btn{font-size: 18px;color: #fff;padding: 9px 0;text-align: center;display: inline-block;width: 180px;height: 40px;border-radius: 20px;}
+.con .btn i{font-size: 1.2em;display: inline-block;margin-left: 5px;}
+.con .more{color: #777;text-decoration: underline;}
+.con .more i{display: inline-block;margin-left: 5px;}
+.wood{background: url(../images/bg_wood.jpg) center repeat;}
+
+@media(max-width:1050px){
+	.con h2{font-size: 30px;}
+	.con .btn{font-size: 16px;}
+	.con .more{font-size: 16px;}
+}
+@media(max-width:600px){
+	.con h2{font-size: 28px;}
+	.con .btn{font-size: 14px;}
+	.con .more{font-size: 14px;}
+}
+
+
+/*百貨優惠*/
+.con .block{padding: 75px 20px;}
+.con1.fixed{margin-top: 60px;}
+.box1{/*padding-left: 50px;*/font-size: 0;}
+.box1 img{max-width: 100%;}
+.box1 .pic{font-size: 0;margin-right: 45px;position: relative;width: 464px;display: inline-block;vertical-align: top;}
+.box1 .frame{border:14px solid #fff;
+	-webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,0.2);-moz-box-shadow:0 1px 3px 0 rgba(0,0,0,0.2);box-shadow:0 1px 3px 0 rgba(0,0,0,0.2)
+}
+.box1 .deco{position: absolute;left: -45px;bottom: -30px;}
+.box1 .txt{text-align: left;padding-right: 20px;display: inline-block;vertical-align: top;width: 400px;}
+.box1 .desc{font-size: 24px;line-height: 1.3;font-weight: bold;color: #e65667;margin-bottom: 10px;}
+.box1 small{max-width: 385px;color: #444;font-size: 17px;line-height: 1.5;margin-bottom: 40px;display: block;}
+
+/*網購優惠*/
+.con2{overflow: hidden;}
+/*.con2 .box1{-webkit-flex-direction: row-reverse;-ms-flex-direction: row-reverse;flex-direction: row-reverse; }*/
+.con2 .deco{right: -25px;left: auto;left:initial;}
+.con2 .pic{float: right;}
+.con2 .txt{float: left; margin:0 0 80px;}
+
+@media(max-width:1050px){
+	.box1 .desc{font-size: 20px;}
+	.box1 small{font-size: 15px;}
+	.box1 .frame{border: 10px solid #fff;}
+
+	.box1 .pic{width: 48%;margin-right: 0;padding-right: 30px;}
+	.box1 .txt{width: 35%;}
+	.con2 .txt{margin-left: 10%;}
+	.box1 .deco{width: 45%;left: -10%;bottom: -8%;}
+	.con2 .deco{right: -10%;left: auto;left: initial;}
+}
+
+@media(max-width:900px){
+	.box1{padding-left: 0;}
+	.box1{display: block;}
+	.box1 .pic{margin:0 auto 40px;width: 420px;padding-right: 0;}
+	.box1 .txt{margin:auto;width: 420px;text-align: center;padding-right: 0;}
+	.box1 small{max-width: auto;max-width: initial;}
+	.con2 .pic, .con2 .txt{float: none;}
+}
+
+@media(max-width:600px){
+	.con .block{padding: 55px 20px;}
+	.con1.fixed{margin-top: 0;}
+	.box1 .desc{font-size: 18px;}
+	.box1 .frame{border: 6px solid #fff;}
+	.box1 .pic{width: 280px;}
+	.box1 .txt{width: 280px;}
+	.box1 small{margin-bottom: 25px;font-size: 13px;}
+}
+
+@media(max-width:450px){
+	.con1.fixed{margin-top: 0;}
+}
+
+@media(max-width:360px){
+	.box1 .pic{width: 95%;}
+	.box1 .txt{width: 95%;}
+}
+
+
+
+/*餐飲優惠*/
+.con3 h2{margin-bottom: 10px;}
+.con3 h2 + .desc{font-size: 18px;color: #fe7988;margin-bottom: 40px;font-weight: bold;}
+.con3 ul{text-align: center;font-size: 0;margin-right: -1.5%;margin-bottom: 45px;}
+.con3 li{height: 390px;background: #fff;border-radius:8px;border:1px solid #cdcab0;width: 23.5%;margin-right: 1.5%;display: inline-block;position: relative;vertical-align: top;}
+.con3 .pic{padding: 30px 0 25px;border-bottom: 1px dashed #cdcab0;margin-bottom: 20px;}
+.con3 .pic img{max-width: 100%;}
+.con3 .txt{font-size: 15px;line-height: 1.5;color: #444;text-align: left;padding:0 25px;margin-bottom: 60px;}
+.con3 small{position: absolute;left: 50%;margin-left: -80px;bottom: 20px;color: #bbb;font-size: 12px;}
+
+@media(max-width:900px){
+	.con3 ul{display: block;margin-bottom: 30px;}
+	.con3 li{height: 370px;width: 42.5%;display: inline-block;vertical-align: text-top;margin-bottom: 1.5%;}
+	.con3 .txt{font-size: 14px;}
+	.con3 small{left: 50%;margin-left: -80px;}
+}
+@media(max-width:600px){
+	.con3 ul{margin-bottom: 20px;}
+	.con3 li{height: 320px;width: 47.5%;}
+	.con3 .pic{padding: 20px 30px 15px;}
+	.con3 .txt{font-size: 13px;padding:0 20px;margin-bottom: 20px;}
+}
+@media(max-width:450px){
+	.con3 h2 + .desc{width: 210px;font-size: 15px;margin:0 auto 40px;}
+	.con3 li{width: 80%;height: auto;}
+	.con3 small{position: relative;bottom: 0;left: 0;margin-left: 0;text-align: left;display: block;padding:0 20px 20px;}
+}
+@media(max-width:360px){
+	.con3 li{width: 90%;}
+}
+
+
+/*寵愛媽咪筆筆抽好禮*/
+.con4 .box2{font-size: 0;}
+.con4 .pic{width: 370px;margin-right: 75px;display: inline-block;vertical-align: middle;}
+.con4 img{max-width: 100%;}
+.con4 .txt{text-align: left;font-size: 17px;color: #444;width: 375px;display: inline-block;vertical-align: middle;}
+.con4 .desc{color: #e65667;font-size: 22px;font-weight: bold;margin-bottom: 20px;line-height: 1.7;}
+.con4 .note{display: block;font-size: 14px;color: #888;margin: 15px 0 20px;text-decoration: underline;}
+.con4 .gray b{color: #ff6b8b;}
+
+@media(max-width:900px){
+	.con4 .pic{margin:0 auto 30px;display: block;text-align: center;}
+	.con4 .txt{text-align: center;font-size: 15px;}
+	.con4 .desc{font-size: 20px;margin-bottom: 15px;}
+}
+@media(max-width:450px){
+	.con4 .pic{width: 280px;}
+	.con4 .desc{font-size: 16px;}
+	.con4 .txt{width: 100%;font-size: 14px;width: 270px;}
+	.con4 .note{font-size: 12px;}
+}
+
+/*玉山25刷卡同樂享咖啡*/
+.con5{}
+.con5 h2 + .desc{color: #ff7989;font-size: 19px;margin-bottom: 30px;font-weight: bold;}
+.con5 .white_box{font-size: 0;margin-right: -2%;margin-bottom: 30px;}
+.con5 .white_box > li{height: 330px;background: #fff;width: 48%;margin-right: 2%;border:1px solid #cdcab0;border-radius: 7px;display: inline-block;padding: 25px;vertical-align: top;}
+.con5 h3{color: #045d38;font-size: 25px;padding-bottom: 20px;margin-bottom: 20px;border-bottom: 1px dashed #cdcab0;}
+.con5 .info{color: #444;font-size: 19px;line-height: 1.5;}
+.con5 .pic{width: 118px;margin-right: 15px;float: left;}
+.con5 .txt{text-align: left;}
+.con5 .txt b{color: #ff6b8b;}
+.con5 li{position: relative;}
+.con5 .pink_li{margin-left: 140px;}
+.con5 .pink_li li{padding-left: 15px;}
+.con5 .pink_li li:before{content:'';width: 6px;height: 6px;border-radius: 50%;background: #ffa4aa;position: absolute;top:10px;left:2px;}
+.con5 .pink_li li + li{margin-top: 5px;}
+.con5 .gray_li{font-size: 14px;color: #999;margin-top: 10px;margin-left: 140px;}
+.con5 .gray_li li{padding-left: 15px;}
+.con5 .gray_li li:before{content:'';width: 6px;height: 6px;border-radius: 50%;background: #d8d8d8;position: absolute;top:7px;left:2px;}
+
+@media(max-width:1050px){
+	.con5 .info{font-size: 16px;}
+
+}
+@media(max-width:900px){
+	.con5 .white_box{display: block;}
+	.con5 .white_box > li{width: 85%;margin-bottom: 15px;height: auto;}
+}
+@media(max-width:600px){
+	.con5 h3{font-size: 20px;padding-bottom: 15px;margin-bottom: 15px;}
+	.con5 .pic{display: none;}
+	.con5 .pink_li, .con5 .gray_li{margin-left: 0;}
+}
+@media(max-width:450px){
+	.con5 .info{font-size: 14px;}
+	.con.con5 h2{font-size: 24px;}
+	.con5 h2 + .desc{font-size: 17px;}
+	.con5 .white_box > li{width: 100%;}
+}
+
+/*辦卡推薦*/
+.con6{overflow: hidden;}
+.con6 h2{margin-bottom: 100px;}
+.con6 h2 span{display: inline-block;position: relative;width: 180px;}
+.con6 h2 span:before{content:'';position: absolute;width: 73px;height: 85px;background: url(../images/con6_flower1.png);left: -73px;top: -25px;}
+.con6 h2 span:after{content:'';position: absolute;width: 73px;height: 85px;background: url(../images/con6_flower2.png);right: -73px;top: -25px;}
+.con6 .card_li{font-size: 0;margin-right: -5%;}
+.con6 .card_li > li{display: inline-block;text-align: center;position: relative;padding: 30px 60px;border-radius: 7px;border:1px solid #d6d1ba;width: 45%;margin-right: 5%;background: url(../images/white_op.png) repeat;}
+.con6 .pic{position: absolute;top: -60px;right: 50px;}
+.con6 img{max-width: 100%;}
+.con6 h3{font-size: 25px;margin-bottom: 30px;text-align: left;}
+.con6 h3 a{color: #e65667;}
+.con6 .card_li > li ul{margin-bottom: 35px;}
+.con6 .card_li > li li{text-align: left;color: #444444;font-size: 18px;padding-left: 20px;position: relative;}
+.con6 .card_li > li li + li{margin-top: 10px;}
+.con6 .card_li > li li:before{content:'';position: absolute;width: 6px;height: 6px;border-radius: 50%;background: #ffa4aa;left: 0;top:8px;}
+.con6 .green_btn{margin: auto;}
+
+@media(max-width:1050px){
+	.con6 h3{margin-bottom: 20px;}
+	.con6 .pic{right: 3%;}
+	.con6 .card_li > li{padding: 30px 40px;}
+	.con6 .card_li > li li{font-size: 16px;}
+}
+@media(max-width:900px){
+	.con6 .pic{right: 50%;margin-right: -120px;top: -40px;}
+	.con6 .card_li > li{padding: 130px 30px 30px;}
+	.con6 .card_li > li li{font-size: 15px;}
+	.con6 h3{text-align: center;margin-bottom: 10px;}
+	.con6 h3 br{display: none;}
+}
+@media(max-width:720px){
+	.con6 h2 span:before, .con6 h2 span:after{display: none;}
+	.con6 h3{font-size: 22px;}
+	.con6 .card_li{display: block;}
+	.con6 .card_li > li{width: 85%;font-size: 14px;padding: 115px 30px 30px;}
+	.con6 .card_li > li + li{margin-top: 70px;}
+	.con6 .card_li > li ul{width: 260px;margin: 0 auto 35px;}
+	.con6 .pic{width: 220px;margin-right: -110px;}
+}
+@media(max-width:450px){
+	.con6 .card_li > li{width: 95%;}
+	.con6 .card_li > li ul{width: 100%;}
+}
+
+/*HAPPY MOTHER’s DAY*/
+.con7{position: relative;}
+.con7 .block{z-index: 2;}
+.con7 .pic{margin: -30px auto;font-size: 0;}
+.con7 .bg{position: absolute;width: 100%;height: 100%;top: 0;left: 0;}
+
+@media(max-width:600px){
+	.con7 .pic{margin: 0px auto;}
+}
+@media(max-width:450px){
+	.con7 .pic{max-width: 75%;}
+	.con7 .pic img{max-width: 100%;}
+}
+
+#fcbox1{position: relative;padding:30px 30px 50px;border-radius: 5px;font-size: 13px;color: #777;display: none;background: #fff;max-width: 960px;}
+#fcbox1 .close{position: absolute;font-size: 27px;top: 20px;right: 20px;}
+#fcbox1 a{color: #777;}
+#fcbox1 h3{font-size: 22px;color: #a10013;padding-bottom: 25px;margin-bottom: 25px;border-bottom:1px dashed #ababab;}
+#fcbox1 ul{font-size: 0;text-align: left;}
+#fcbox1 ul li{font-size: 13px;padding-left: 15px;position: relative;}
+#fcbox1 ul li:before{content:'-';position: absolute;left: 0;top: 0;}
+#fcbox1 ul li + li{margin-top: 10px;}
+#fcbox1 ul li b{color: #e65667;}
+
+@media(max-width:450px){
+	#fcbox1{padding: 30px 15px 50px;}
+	#fcbox1 a{font-size: 18px;}
+	#fcbox1 h3{font-size: 18px;padding:0 15px 15px;margin-bottom: 15px;}
+	#fcbox1 span{display: block;}
+}

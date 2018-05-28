@@ -1,0 +1,147 @@
+/*//////////font//////////*/
+/*//////////dimension//////////*/
+/*//////////color//////////*/
+/*//////////color//////////*/
+.l { float: left; }
+
+.r { float: right; }
+
+/*//////////extend 模組//////////*/
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.ellipsis_p { overflow: hidden; text-overflow: ellipsis; display: block; /* Fallback for non-webkit */ display: -webkit-box; white-space: normal; -webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical; /*-webkit-line-clamp: 2;*/ }
+
+.noellipsis { text-overflow: clip; white-space: normal; }
+
+.shadow, .header { -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
+
+.inshadow { -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.tshadow { text-shadow: 1px 1px 0px #11737c; }
+
+.piecss3 { behavior: url("plugin/pie/PIE.php"); }
+
+.noshadow { -webkit-box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; box-shadow: 0 0 0 0; }
+
+.bgcover, .con1, .con3_bg, .con4 { background-position: center center !important; background-repeat: no-repeat; -webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important; background-size: cover !important; }
+
+.piecss3 { position: relative; z-index: 2; behavior: url("js/pie/PIE.php"); }
+
+/*for sticky footer*/
+html, body { width: 100%; text-align: center; }
+
+body { min-width: 1000px; }
+
+.header { height: 80px; margin: auto; }
+
+.main { padding-top: 80px; color: #000;}
+
+.content { width: 100%; margin: auto; }
+
+section { width: 1000px; margin: auto; position: relative; display: inline-block; }
+
+.footer { position: relative; height: 95px; clear: both; }
+
+/*//////////header樣式//////////*/
+.header { position: fixed; width: 100%; background: #232323 url(../images/hd_bg.jpg) 0 0 repeat-x; z-index: 2; border-bottom: 7px solid #000; }
+.header .logo { width: 168px; height: 72px; float: left; background: url(../images/logo.png) center no-repeat; }
+.header .menu { float: right; font-size: 14px; line-height: 60px; padding-top: 1px; }
+.header .menu li { width: auto; float: left; height: 71px; line-height: 71px; font-size: 15px; }
+.header .menu li:hover, .header .menu li.current { border-bottom: 3px solid #d12c1f; }
+.header .menu li a { color: #fff; display: block; padding: 0 20px; }
+.header .s_menu{display: none;float: right;width: 30px;height: 30px;margin:20px;}
+.header .s_menu a {display: block;width: 100%;height: 100%;background: url(../images/s_menu.png) center no-repeat;}
+.header .s_menu a.on{background: url(../images/s_menuh.png) center no-repeat;}
+
+/*//////////footer樣式//////////*/
+.footer { text-align: center; width: 100%; background-color: black; line-height: 93px; }
+.footer p { font-size: 12px; font-family: Arial; display: inline-block; margin: auto; color: white; }
+
+.con { padding-top: 80px; position: relative; padding-top: 0; }
+
+.mycon { z-index: 2; }
+
+/*//////////banner//////////*/
+.con1 { background: black url(../images/bg_con1.jpg); overflow: hidden; position: relative; }
+.con1 img { max-width: 100%; }
+.con1 .myscroll { cursor: pointer; display: block; position: absolute; left: 50%; width: 64px; margin-left: -32px; height: 64px; bottom: 10px; }
+
+/*//////////商品介紹//////////*/
+.con2wrap .note { font-size: 28px; margin-top: 75px; margin-bottom: 40px; }
+.con2wrap { overflow: hidden; color: white; background: black url(../images/bg_con5.jpg) top center no-repeat; }
+.con2wrap .con2_bg { width: 100%; }
+.con2wrap .desc {text-align: left;font-size: 15px; line-height: 1.8;max-width: 800px;margin: auto;padding-bottom: 5%;}
+.con2wrap .desc p + p{margin-top: 10px;}
+.con2wrap .con2_txt {display: block;margin: -40px auto 50px;}
+.con2wrap img{max-width: 100%}
+.con2wrap .desc .con2_link{font-size: 18px;text-align: center;display:block;}
+
+/*//////////商品規格//////////*/
+.con3 { background: black;}
+.con3 section{padding-bottom: 5%;}
+.con3 .watchinfo { height: 485px;padding-top:80px;/*position: absolute;top: 50%;margin-top: -243px;width: 100%;left: 50%;margin-left: -500px;*/}
+.con3 .con3_bg { width: 100%;/* min-height: 640px;*/ background: black url(../images/bg_con2.jpg) top center no-repeat; }
+.con3 .l { /*margin-top: 75px;*/ margin-left: 95px; float: left; width: 355px; }
+.con3 .r { font-size: 16px;float: right; width: 540px; text-align: left; margin-top: 20px; }
+.con3 .r li { padding: 5px 0; float: left; }
+.con3 h3 { font-size: 40px; background: url(../images/divide3.png) bottom left no-repeat; height: 120px; line-height:1.2; margin-bottom: 20px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.con3 h3 small{font-size: 20px;font-weight: normal;}
+.con3 h4 { float: left; width: 80px; padding-left: 20px; background: url(../images/icon_yellow.png) left 5px no-repeat; }
+.con3 p { float: right; width: 450px; line-height: 1.5; }
+.con3 span { margin: 0 6px; }
+.con3 .pre_order { padding-top: 10px; margin-top: 35px; display: block; width: 100%; height: 60px; line-height: 58px; text-align: center; border: 1px solid #555; background: url(../images/con3_btn_bg.jpg) center repeat-x; }
+.con3 .gallery_box{width:450px;height: auto;float:left;}
+.con3 .gallery_slider{width:450px;}
+.con3 .gallery_slider .slick-dots li.slick-active button:before{color:#e2b52e;}
+.con3 .gallery_slider .slick-dots li button:before{color:#a0a0a0;}
+.con3 .gallery_slider .slick-dots{bottom:-60px;left:-15px;}
+
+/*//////////銷售據點//////////*/
+.con4 { background-image: url(../images/bg_con4.jpg); color: white; background-color: #000}
+.con4 .note { font-size: 28px; margin-top: 75px; margin-bottom: 40px; }
+.con4 .note img { margin-bottom: 10px; max-width: 100%}
+.con4 .districtli { background: url(../images/divide2_b.png) top left no-repeat; overflow: hidden; }
+.con4 .district { width: 33.3%; float: left; text-align: center; background-image: url(../images/divide2_b.png); background-position: top right; background-repeat: no-repeat; }
+.con4 .district h3 { font-size: 22px; height: 75px; line-height: 75px;}
+.con4 .district ul { float: left; text-align: left; font-size: 16px; width: 100%; }
+.con4 .district li { float: left; width: 100%; padding: 20px 30px; background: url(../images/divide1.png) top center no-repeat; height: 85px; }
+.con4 .district h4 { padding-left: 30px; background: url(../images/icon_white.png) left 5px no-repeat; }
+.con4 .district p { color: #999999; font-size: 14px; padding-left: 30px; }
+
+/*//////////電影介紹//////////*/
+.con5 .note { font-size: 28px; margin-top: 75px; margin-bottom: 40px;max-width: 800px;padding:0 200px;position: relative; height: 280px;}
+.con5 { overflow: hidden; color: white; background: black url(../images/bg_con5.jpg) top center no-repeat; }
+.con5 .con2_bg { width: 100%; }
+.con5 .desc {text-align: left;font-size: 15px; line-height: 1.8;max-width: 800px;margin: auto;padding-bottom: 5%;}
+.con5 .desc p + p{margin-top: 10px;}
+.con5 .con2_txt {display: block;margin: -40px auto 50px;}
+.con5 img{max-width: 100%}
+.con5 .desc .con2_link{font-size: 18px;text-align: center;}
+.con5 .movie_pic{font-size: 0;display: inline-block;position: absolute;top:0;left: 80px;width: 50%;}
+.con5 .movie_info{font-size: 0;display: inline-block;position: absolute;top:0;right: -90px;width: 50%;}
+.con5 .movie_info .underline{padding:12px 0;padding-right:64px;}
+.con5 .movie_info .img_tit{text-align: left;padding-bottom: 8px;}
+.con5 .movie_info .movie_ps{font-size: 15px;color:#FFF;text-align: left;padding-top:8px;}
+.con5 .movie_infolist{text-align: left;padding-bottom:18px;}
+.con5 .movie_infolist li{padding-top: 9px;}
+.con5 .movie_infolist h4{display: inline-block;font-size:15px; width: 35px;}
+.con5 .movie_infolist p{display: inline-block;font-size: 15px;padding-left: 20px;width:365px;float:right; }
+.con5 p{clear:both;}
+.con5 .con5_link{font-size: 15px;color:#FFF;text-decoration: underline;margin-right: 20px;}
+/*0301_chloe*/
+.con3 .txt{width: 80%;font-size: 16px;margin:30px auto 50px;line-height: 1.8;text-align: center;padding-top: 100px;}
+.con3 .txt p{width: auto;float: none;line-height: 1.8;}
+.con3 .txt p + p{margin-top: 20px;}
+
+/*0308_chloe*/
+/*.con2wrap .desc p small{font-size: 16px;line-height: 1.5;}*/
+.con2_bg strong{margin-bottom: 8%;display: block;text-align: center;}
+.con2_bg strong p{font-size: 18px;font-weight: normal;line-height: 1.5;}
+.con2_bg h2{font-size: 18px;font-weight: normal;}
+.con2_bg p + h2{margin-top: 30px;}
+.con2_bg ul{margin: 0;padding: 0;}
+.con2_bg li{padding-left: 30px;position: relative;}
+.con2_bg li span{top: 5px;left: 3px;position: absolute;background-color: #d12c1f;display: block;width: 18px;height: 18px;text-align: center;color: #fff;border-radius: 50%;line-height: 18px;font-size: 13px;}
+.con2_bg a{color: #eee;text-decoration: underline;}
+
+.copyright{width: 100%;text-align:left;clear: both;padding: 20px 0;font-size: 12px;color:#a0a0a0;}

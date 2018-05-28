@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--for fucking stupid ie-->
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=10; IE=9; IE=8;" />
+<meta charset="UTF-8">
+
+<title>WIRED X JUSTICE LEAGUE</title>
+
+<meta name="keywords" content="SEIKO WIRED 日本原創 品牌手錶" />
+<meta name="title" content="WIRED--源自SEIKO 日本獨一無二的原創品牌手錶" />
+<link rel="image_src" type="image/jpeg" href="fbshare_images/homefb1.jpg" />
+<meta name="description" content="2000年誕生於日本東京，如同品牌名的意譯-聯繫-以將日本東京街頭最流行的文化帶到全世界為使命。每一季的商品都有不同主題，將日本當下的流行風格設計進商品，陪伴消費者每天的潮流穿搭。" />
+<meta property="og:image" content="http://www.w-wired.com.tw/2017/theme/tw/images/fb_share.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="theme/tw/css/reset.css">
+<link rel="stylesheet" href="theme/tw/css/css.css">
+<link rel="stylesheet" href="theme/tw/css/rwd.css">
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="http://www.seiko.com.tw/images/faviseiko.png">
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!-- slick -->
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+
+<!--for banner slider輪播-->
+<link rel="stylesheet" href="js/bxslider/jquery.bxslider.css">
+<script type="text/javascript" src="js/bxslider/jquery.bxslider.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen"/>
+
+<!-- One page Nav -->
+<script type="text/javascript" src="js/one_page_nav/jquery.nav.js"></script>
+
+<!-- 自動裁圖 -->
+<script type='text/javascript' src='js/imgLiquid-min.js'></script>
+
+<!-- 內卷軸 -->
+<script src="js/nicescroll/jquery.nicescroll.js"></script>
+
+
+
+<!--[if IE]>
+    <script>
+        document.createElement("header");
+        document.createElement("menu");
+        document.createElement("nav");
+        document.createElement("section");
+        document.createElement("article");
+        document.createElement("aside");
+        document.createElement("figure");
+        document.createElement("hgroup");
+        document.createElement("footer");
+        document.createElement("address");
+    </script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="../js/html5.js"></script>
+<![endif]-->
+
+<!--ga-->
+<script type="text/javascript">
+	var msie;
+	function brs ( ua ) {
+		 ua = ua.toLowerCase();  
+	   
+		 var match = /(webkit)[ \/]([\w.]+)/.exec( ua ) ||  
+			 /(opera)(?:.*version)?[ \/]([\w.]+)/.exec( ua ) ||  
+			 /(msie) ([\w.]+)/.exec( ua ) ||  
+			 !/compatible/.test( ua ) && /(mozilla)(?:.*? rv:([\w.]+))?/.exec( ua ) ||  
+			 [];  
+		 /* 
+			 webkit内核 遨游、Chrome、safari 
+			  /(webkit)[ \/]([\w.]+)/.exec( ua ) 
+			 opera 
+			 /(opera)(?:.*version)?[ \/]([\w.]+)/.exec( ua ) 
+			 ie 
+			  /(msie) ([\w.]+)/.exec( ua ) 
+			 firefox 
+			  !/compatible/.test( ua ) && /(mozilla)(?:.*? rv:([\w.]+))?/.exec( ua ) 
+		 */  
+		return { browser: match[1] || "", version: match[2] || "0" };  
+	}
+	testIE8();
+	function testIE8() {  msie = brs(navigator.userAgent).browser + "-" + brs(navigator.userAgent).version; }
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-20393606-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	/*** GA Event Tracking Function ***/
+	function GA_EventClickLog(Category, Action){
+		_gaq.push(['_trackEvent', Category, Action]);
+	}
+</script>
+
+<!--end_ga-->
+
+
+
+
+<script type="text/javascript">
+$(function(){
+
+    /*bxslider*/
+	var slider = $('.banner_bxslider').bxSlider({
+        mode: 'horizontal',
+        auto: false,
+        slideMargin: 1,
+        pagerCustom: '#bx-pager'
+    });
+
+    /*One page Nav*/
+    $('#nav').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 750,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+    });
+
+    /*自動裁圖*/
+    $('.imgLiquid').imgLiquid({
+        fill: true,
+        horizontalAlign: "center",
+        verticalAlign: "center"
+    }); 
+
+
+    /*內卷軸*/
+    $(".district").niceScroll({cursorcolor:"#fff",cursoropacitymax:'0.6',cursorwidth:'6',cursorborderradius:'3px',});
+	
+	/*商品滑動*/
+	$('.gallery_slider ul').slick({
+            autoplaySpeed: 2500,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+        });	
+
+
+});
+</script>
+
+</head>
+<body class="index">
+<div class="wrap">
+	
+	<div class="header">
+		<section>
+			<a href="http://www.w-wired.com.tw/index.html" class="logo"></a>
+			<div class="s_menu">
+				<a href="javascript:;"></a>
+			</div>
+
+			<ul class="menu" id="nav">
+				<li class="current"><a class="li1" href="#con2">商品介紹</a></li>
+				<li><a class="li3" href="#con3">商品規格</a></li>
+				<li><a class="li4" href="#con4">銷售據點</a></li>
+				<li><a class="li2" href="#con5">電影介紹</a></li>
+			</ul>
+		</section>
+			
+	</div>
+
+	<div class="main">
+		<div class="content">
+
+			<!--WIRED X JUSTICE LEAGUE-->
+			<div class="con con1" id="con1">				
+				<section>
+					<div class="myscroll">
+						<img src="theme/tw/images/arrow_scroll.png" alt="">
+					</div>
+				</section>
+			</div>
+
+		
+			<div class="con con2wrap">
+				<div class="con2_bg" id="con2">
+					<section>
+					<div class="note">
+						<img src="theme/tw/images/con1_tit.png" alt="WIRED X《正義聯盟》英雄時代再臨  聯手出擊 破除黑暗勢力" title="WIRED X《正義聯盟》英雄時代再臨  聯手出擊 破除黑暗勢力">
+					</div>
+					<div class="desc clearfix">
+						<p>SEIKO旗下時尚腕錶品牌WIRED繼去年與《蝙蝠俠對超人：正義曙光》聯名推出的經典錶款造成熱烈迴響後，再度強勢攜手《正義聯盟》共同推出話題性極高的聯名錶款！</p>
+                        <br>
+					    <p>WIRED與華納再度聯名推出經典英雄手錶，將電影裡壯闊的世界觀完全展現在錶款上。面盤上12點鐘方向刻著正義聯盟「JL」標誌，將英雄團結的精神表露無遺；45mm的大錶徑讓時間判讀更輕易，三眼計時功能也增添錶款的實用功能；另外，錶殼與錶帶皆採全黑電鍍，搭配金屬面盤，混搭出與眾不同的時尚感。</p>
+						<br>
+						<p>全台限量500支WIRED×《正義聯盟》聯名錶在錶背上以淺色低調刻印《正義聯盟》的英文Logo與獨立的限量序號，每支錶皆獨一無二，非常值得收藏。而WIRED更特別設計磅礡世界觀的錶盒，盒面上有顯眼的《正義聯盟》標誌，意味著向世人宣告英雄們全員集結對抗邪惡大軍的決心，讓粉絲感受完整的DC世界觀。 </p>
+						<br>
+						<p>WIRED×《正義聯盟》聯名錶款已在各經銷商開始販售，另外只要於YAHOO購物中心購買更加碼贈送威秀影城電影票(數量有限、送完為止)，各位英雄迷們千萬不可錯過！ </p>
+						<br>
+						<a class="con2_link" target="_blank" href="https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=7363135">點我買錶去 <i class="fa fa-angle-double-right"></i></a>
+					</div>
+					</section>
+				</div>
+
+
+				<div class="con con3" id="con3">
+					<div class="con3_bg">
+						<section>
+							<div class="watchinfo">
+								<div class="gallery_box">
+								<div class="gallery_slider">
+                		    			<ul>
+                		    			    <li>
+										        <img src="theme/tw/images/con3_watch1.png">
+										    </li>
+										    <li>
+										        <img src="theme/tw/images/con3_watch2.png">
+										    </li>
+										    <li>
+										        <img src="theme/tw/images/con3_watch3.png">
+										    </li>   
+										</ul>
+						   		</div>
+						      	</div>
+								<div class="r">
+									<h3><small>WIRED x 《正義聯盟》聯名錶款</small><br>AT3989X1</h3>
+									<ul class="clearfix">
+										<li>
+											<h4>定價</h4>
+											<p>NT$8,500</p>
+										</li>
+										<li>
+											<h4>錶徑</h4>
+											<p>45mm</p>
+										</li>
+										<li>
+											<h4>限量</h4>
+											<p>台灣限量500只</p>
+										</li>
+										<li>
+											<h4>規格</h4>
+											<p>不鏽鋼材質<span>/</span>計時碼錶功能<span>/</span>日期顯示<span>/</span>強化鏡面<span>/</span>日常生活防水(10氣壓) <span>/</span>特殊錶盒<span>/</span>專屬背刻及限量序號</p>
+										</li>
+									</ul>
+									
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<!--銷售據點-->
+			<div class="con con4" id="con4">
+				<section>
+					<div class="note">
+						<img src="theme/tw/images/con4_tit.png" alt="限量錶款 X 限定通路" title="限量錶款 X 限定通路">
+					</div>
+					<ul class="clearfix districtli">
+						<li class="district">
+							<h3>北部地區</h3>
+							<ul>
+								<li>
+									<h4>精光堂(台北信義威秀影城SEIKO旗艦店)</h4>
+									<p class="addr">台北市信義區松壽路18號1樓</p>
+								</li>
+								<li>
+									<h4>鈺鴻鐘錶 (SEIKO西門旗艦店)</h4>
+									<p class="addr">台北市萬華區西寧南路121號</p>
+								</li>
+								<li>
+									<h4>萬年鐘錶精品名店</h4>
+									<p class="addr">台北市萬華區西寧南路70號一樓之9</p>
+								</li>
+								<li>
+									<h4>銓盛(美麗華本館)</h4>
+									<p class="addr">台北市中山區敬業三路20號2樓</p>
+								</li>
+								<li>
+									<h4>精鎧鐘錶</h4>
+									<p class="addr">新北市新莊區中正路244號一樓</p>
+								</li>
+								<li>
+									<h4>中美鐘錶眼鏡行</h4>
+									<p class="addr">新北市三重區重新路二段58號</p>
+								</li>
+								<li>
+									<h4>永和時代</h4>
+									<p class="addr">新北市永和區永和路二段232號</p>
+								</li>
+								<li>
+									<h4>第一銀樓鐘錶眼鏡行</h4>
+									<p class="addr">新北市永和區永和路二段192號</p>
+								</li>
+								<li>
+									<h4>鈺鴻鐘錶 (SEIKO中和環球旗艦店)</h4>
+									<p class="addr">新北市中山路3段122號1樓</p>
+								</li>
+								<li>
+									<h4>精光堂(板橋遠東新館)</h4>
+									<p class="addr">新北市板橋區新站路28號3樓</p>
+								</li>								
+								
+								<li>
+									<h4>建興時計(台茂形象店)</h4>
+									<p class="addr">桃園縣蘆竹鄉南崁路一段112號3F</p>
+								</li>
+								<li>
+									<h4>派迪爾(中壢大江購物中心)</h4>
+									<p class="addr">中壢市中園路2段501號1樓</p>
+								</li>
+								<li>
+									<h4>精光堂(新竹巨城)</h4>
+									<p class="addr">新竹市中央路239號5樓</p>
+								</li>								
+							</ul>
+						</li>
+						<li class="district">
+							<h3>中部地區</h3>
+							<ul>
+								<li>
+									<h4>寶喬鐘錶</h4>
+									<p class="addr">台中市豐原區中正路187號</p>
+								</li>
+								<li>
+									<h4>三民鐘錶眼鏡行</h4>
+									<p class="addr">台中市北區三民路三段123號</p>
+								</li>
+								<li>
+									<h4>自強鐘錶時計店</h4>
+									<p class="addr">台中市北區三民路3段80號1樓</p>
+								</li>
+								<li>
+									<h4>精光堂(中友百貨C棟)</h4>
+									<p class="addr">台中市北區三民路三段161號C棟9F</p>
+								</li>
+								<li>
+									<h4>樺琦屋(勤美誠品綠園道)</h4>
+									<p class="addr">台中市公益路68號2樓</p>
+								</li>
+								<li>
+									<h4>派迪爾(台中新時代購物廣場)</h4>
+									<p class="addr">台中市東區復興路四段186號一樓</p>
+								</li>
+								<li>
+									<h4>自強時計店</h4>
+									<p class="addr">彰化市永樂街67號</p>
+								</li>
+								<li>
+									<h4>宋氏鐘錶</h4>
+									<p class="addr">雲林縣斗六市光興里大同路30號</p>
+								</li>
+								<li>
+									<h4>名展精品店</h4>
+									<p class="addr">嘉義市文化路168-1號</p>
+								</li>
+							</ul>
+						</li>
+						<li class="district">
+							<h3>南部地區</h3>
+							<ul>
+								<li>
+									<h4>成笙鐘錶 (新光三越台南西門店)</h4>
+									<p class="addr">台南市西門路一段658號4樓</p>
+								</li>
+								<li>
+									<h4>奇詰酷錶館</h4>
+									<p class="addr">高雄市左營大路266號</p>
+								</li>
+								<li>
+									<h4>精光堂(漢神巨蛋購物廣場)</h4>
+									<p class="addr">高雄市博愛二路777號7樓</p>
+								</li>
+								<li>
+									<h4>精光堂(統一夢時代購物中心)</h4>
+									<p class="addr">高雄市中華五路789號2樓</p>
+								</li>
+								<li>
+									<h4>精光堂(漢神本館形象店)</h4>
+									<p class="addr">高雄市前金區成功一路266-1號6樓</p>
+								</li>
+								<li>
+									<h4>鑫名人時計</h4>
+									<p class="addr">高雄市鹽埕區五福四路249號一樓</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+
+			<div class="con5" id="con5">
+				<section>
+					<div class="note">
+						<div class="movie_pic">
+							<img src="theme/tw/images/con5_pic.jpg" alt="《正義聯盟》電影海報" title="《正義聯盟》電影海報">
+						</div>
+						<div class="movie_info">
+							<div class="img_tit">
+								<img src="theme/tw/images/con5_tit.png" alt="《正義聯盟》電影介紹" title="《正義聯盟》電影介紹">
+							</div>
+							<img src="theme/tw/images/divide3.png" class="underline">
+							<ul class="movie_infolist">
+								<li>
+									<h4>製片</h4>
+									<p>查爾斯羅文、黛博拉史奈德、強伯格、傑夫強斯</p>
+								</li>
+								<li>
+									<h4>導演</h4>
+									<p>查克史奈德 </p>
+								</li>
+								<li>
+									<h4>編劇</h4>
+									<p>克里斯泰瑞歐、喬斯溫登、查克史奈德</p>
+								</li>
+								<li></li>
+								    <h4>演員</h4>
+									<p>班艾佛列克、蓋兒加朵、亨利卡維爾、雷蒙費雪、傑森摩莫亞、伊薩米勒</p>
+							</ul>
+							<div class="movie_ps">
+								<p>※上映日期：11月16日</p>
+							</div>
+							<div class="copyright">© 2017 WARNER BROS. ENTERTAINMENT INC., RATPAC-DUNE ENTERTAINMENT LLC AND RATPAC ENTERTAINMENT, LLC</div>
+						</div>
+					</div>
+					<div class="desc clearfix">
+						<p>華納兄弟影業隆重推出首次登上大銀幕的史詩動作冒險鉅片【正義聯盟】，該片由查克史奈德執導，參與演出DC漫畫經典超級英雄的堅強演員陣容則包括飾演蝙蝠俠的班艾佛列克、飾演超人的亨利卡維爾、飾演神力女超人的蓋兒加朵、飾演鋼骨的雷蒙費雪、飾演水行俠的傑森摩莫亞，以及飾演閃電俠的伊薩米勒。</p>
+                        <br>
+					    <p>受到他對於人性再度感到信心的驅動，以及超人捨己救人的大無私精神的感召，布魯斯韋恩得到了他新結交的盟友黛安娜普林斯的幫助，共同面對一個更可怕的敵人。蝙蝠俠和神力女超人攜手合作，很快就集結了一個超能力者同盟團隊，聯手對抗這個全新崛起的邪惡力量。但是儘管他們組成了史無前例的超級英雄聯盟─蝙蝠俠、神力女超人、水行俠、鋼骨和閃電俠─他們想要拯救地球免於遭到這場前所未見、毀天滅地的攻擊行動，或許已經為時已晚。</p>
+						<br>
+						<p>【正義聯盟】電影的劇本來自克里斯泰瑞歐和喬斯溫登，故事來自克里斯泰瑞歐和查克史奈德，改編自DC漫畫旗下的角色，超人由傑瑞西格爾與喬舒斯特創作。製片包括查爾斯羅文、黛博拉史奈德、強伯格以及傑夫強斯，執行製片則是吉姆羅維、衛斯理考勒、寇特金元、克里斯泰瑞歐以及班艾佛列克。</p>
+						<br>
+						<p>幕後工作團隊則包括攝影指導法比安華格納（熱門影集【權力遊戲】），以及導演查克史奈德的長期合作夥伴美術指導派崔克塔托普羅斯、剪接師大衛布萊納、服裝設計師麥可威肯森、視覺特效總監約翰“DJ”狄嘉登，以及配樂師湯姆霍肯伯格。</p>
+						<br>
+						<p>華納兄弟影業出品，Atlas娛樂/ Cruel and Unusual製作公司製作，查克史奈德作品，【正義聯盟】一片美國將於2017年11月17日3D、2D以及IMAX同步上映，電影將由華納兄弟娛樂公司旗下的華納兄弟影業在全世界各地發行，台灣搶先美國於11月16日上映。</p>
+						<a class="con5_link" target="_blank" href="http://www.justiceleaguethemovie.net/">官方網站 <i class="fa fa-angle-double-right"></i></a> 
+						<a class="con5_link" target="_blank" href="https://www.facebook.com/DCFilmsTW/">官方電影粉絲團 <i class="fa fa-angle-double-right"></i></a>
+					</div>
+					</section>
+				</div>
+			
+			
+			<div class="footer">
+				<p>© 2017 SEIKO TAIWAN CO., LTD.</p>
+				<p>ALL RIGHTS RESERVED</p>
+			</div>
+
+			
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+/*//////////font//////////*/
+/*//////////dimension//////////*/
+/*//////////color//////////*/
+/*//////////color//////////*/
+.l { float: left; }
+
+.r { float: right; }
+
+/*//////////extend 模組//////////*/
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.ellipsis_p { overflow: hidden; text-overflow: ellipsis; display: block; /* Fallback for non-webkit */ display: -webkit-box; white-space: normal; -webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical; /*-webkit-line-clamp: 2;*/ }
+
+.noellipsis { text-overflow: clip; white-space: normal; }
+
+.shadow { -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
+
+.inshadow { -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.tshadow { text-shadow: 1px 1px 0px #11737c; }
+
+.piecss3 { behavior: url("plugin/pie/PIE.php"); }
+
+.noshadow { -webkit-box-shadow: 0 0 0 0; -moz-box-shadow: 0 0 0 0; box-shadow: 0 0 0 0; }
+
+.bgcover { background-position: center center !important; background-repeat: no-repeat; -webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important; background-size: cover !important; }
+
+.piecss3 { position: relative; z-index: 2; behavior: url("js/pie/PIE.php"); }
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, div, span, img, dl, dt, dd, ol, ul, li, table, tr, th, td, form, input { margin: 0px; padding: 0px; border: 0px; font-size: 100%; font-family: "Noto Sans", "微軟正黑體", Arial, Calibri, Verdana, Geneva, sans-serif; }
+
+body { font-family: "Noto Sans", "微軟正黑體", Arial, Calibri, Verdana, Geneva, sans-serif; margin: 0px; padding: 0px; }
+
+p, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+
+ul li { list-style: none; }
+
+table { font-family: "Noto Sans", "微軟正黑體", Arial, Calibri, Verdana, Geneva, sans-serif; border-collapse: collapse; border-spacing: 0; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; margin: 0px; padding: 0px; }
+
+th { font-weight: normal; }
+
+img { border-width: 0; }
+
+a, img { text-decoration: none; outline: none; behavior: expression(this.onFocus=this.blur()); }
+
+a:hover, img:hover { color: #666666; text-decoration: none; }
+
+a, a:hover { -webkit-transition: all .35s ease-in-out; -moz-transition: all .35s ease-in-out; -o-transition: all .35s ease-in-out; -ms-transition: all .35s ease-in-out; transition: all .35s ease-in-out; }
+
+button, input, textarea, select { font-family: "Noto Sans", "微軟正黑體", Arial, Calibri, Verdana, Geneva, sans-serif; font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+button, input { line-height: normal; *overflow: visible; }
+
+table button, table input { *overflow: auto; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+textarea { resize: vertical; }
+
+/* 一致的方塊大小和外觀 */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* 表單有效性的色彩 */
+input:invalid, textarea:invalid { background-color: #eff0dd; }
+
+.clearfix:after { content: " "; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }

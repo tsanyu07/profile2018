@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--for ie-->
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=10; IE=9; IE=8;" />
+<meta charset="UTF-8">
+
+<title>Pettrust</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="theme/tw/css/reset.css">
+<link rel="stylesheet" href="theme/tw/css/css.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/slider/slider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type='text/javascript' src='js/jquery-imgLiquid.min.js'></script>
+<!-- slick -->
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="js/jquery-ui.css">
+
+
+<script type="text/javascript">
+$(function(){
+
+    // 自動裁圖
+    $('.imgLiquid').imgLiquid({
+        fill: true, horizontalAlign: "center", verticalAlign: "center"
+    });
+     $('.imgLiquid2').imgLiquid({
+        fill: false, horizontalAlign: "center", verticalAlign: "center"
+    });
+
+
+
+
+
+ $('.gallery_slider ul').slick({
+            autoplaySpeed: 1500,
+            autoplay: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            responsive: [
+                {
+                    breakpoint: 671,
+                    settings: {
+                        autoplay: true,
+                    }
+                }
+            ]
+        });
+	
+});
+
+
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
+</script>
+
+
+
+</head>
+<body>
+	<header>
+		<section>
+		  <div>
+		     <a href="index.html" class="logo">
+		     	<img src="theme/tw/images/logo_jp.png" alt="Pettrust" title="Pettrust">
+		     </a>
+		  </div>
+		  <nav>
+		  	<div class="menu">
+          <ul>
+            <li>
+              <a href="product.html" class="menu_link">製品紹介</a>
+            </li>
+            <li>
+              <a href="technology.html" class="menu_link">テクノロジー</a>
+            </li>
+            <li>
+              <a href="contact_us.html" class="menu_link">お問い合わせ先</a>
+            </li>
+
+            <li class="">
+              <div class="lang">
+                <a href="" class="lang_btn">繁</a>
+                <a href="" class="lang_btn">EN</a>
+              </div>              
+            </li>
+          </ul>
+        </div>
+		  </nav>
+		</section>
+		<!-- <div class="bdr"></div> -->
+	</header>
+
+
+
+
+
+	<div class="main">
+        <div class="bgbanner bgeducation">
+            <div class="block">
+            <h2>Technology <small>テクノロジー</small></h2>
+            </div>
+        </div>
+
+
+	
+
+	<div class="con con4">
+		<div class="block">
+            <div class="proinfo clearfix">
+                <ul class="sidemenu">
+                	<li class="sidelist"><i class="fa fa-caret-right"></i><a href="technology.html">產品01使用說明</a></li>
+                	<li class="sidelist selected"><i class="fa fa-caret-right"></i><a href="technology2.html">產品02使用說明</a></li>     
+                </ul>
+                <div class="content">
+                	<h2>Pettrust-Noninvasive Blood Pressure</h2>                		
+  <div class="edit">
+    <h4>特色</h4>
+    <p>Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，人性化的設計與高精準度的數據，相信能夠為您的寵物帶來更好的照護。Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，相信能夠為您的寵物帶來更好的照護。</p>
+    <h4>標題字範例</h4>
+    <ul>
+    	<li>
+    		Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器。
+    	</li>
+    	<li>
+    		Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器。
+    	</li>
+    	<li>
+    		Pettrust是一台專門為犬貓設計的<a href="#">非侵入式血壓監測儀器。</a>
+    	</li>
+    </ul>
+    <h4>表格樣式範例</h4>
+     <table>
+       <tbody>
+       <tr>
+       <td>項目01</td>
+       <td>項目02</td>
+       <td>項目03</td>
+       <td>項目04</td>
+       <td>項目05</td>
+       <td>項目06</td>
+       <td>項目07</td>
+       </tr>
+       <tr>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       </tr>
+       <tr>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       <td>12345</td>
+       </tr>
+       </tbody>
+      </table>
+      <h4>特色</h4>
+    <p>Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，人性化的設計與高精準度的數據，相信能夠為您的寵物帶來更好的照護。Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，相信能夠為您的寵物帶來更好的照護。</p>
+    <p>Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，人性化的設計與高精準度的數據，相信能夠為您的寵物帶來更好的照護。Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，相信能夠為您的寵物帶來更好的照護。Pettrust是一台專門為犬貓設計的非侵入式血壓監測儀器，利用高感度的感測器測犬貓的血壓，以減少醫生在量測犬貓時需要剃毛的困擾，相信能夠為您的寵物帶來更好的照護。</p>
+    </div>
+        </div>
+
+            </div>
+		</div>
+    </div>
+
+    </div>
+
+	<footer>
+	  <div class="block">
+		<div class="footer_info">
+		  <div class="footer_logo">
+			<a href="index.html">
+				<img src="theme/tw/images/logo_white_jp.png">
+			</a>
+	      </div>
+	      <div class="footer_addr">
+          <p>台湾桃園市蘆竹區南山路二段五巷12號4樓</p>
+          <p class="tel">Tel : 886-3-2616678</p>
+          <p class="tel">Fax : 886-3-2616679</p>
+          <p class="tel">E-mail : sales@biocare.com.tw</p>
+        </div>	
+		</div>
+		<div class="footer_url">
+      <a href="http://www.biocare.com.tw/" target="_blank"><img src="theme/tw/images/biocare.png"></a>
+      <a href="https://www.facebook.com/Pettrust-426599417742426/" target="_blank"><img src="theme/tw/images/fb_icon.png"></a>
+      <a href="https://www.youtube.com/channel/UCLR8Ll-KaCr5cKpcTYeSK3g?view_as=subscriber" target="_blank"><img src="theme/tw/images/youtube_icon.png"></a>
+    </div>
+	  </div>	
+	</footer>
+  <a href="" class="gotop"><img src="theme/tw/images/top.jpg"></a>
+
+
+</body>

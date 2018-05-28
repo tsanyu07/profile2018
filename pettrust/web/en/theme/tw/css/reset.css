@@ -1,0 +1,32 @@
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ellipsis_p{/*-webkit-line-clamp: 2;*/overflow:hidden;text-overflow:ellipsis;display:block;display:-webkit-box;white-space:normal;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical}
+.noellipsis{text-overflow:clip;white-space:normal}
+.shadow{-webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,0.2);-moz-box-shadow:0 1px 3px 0 rgba(0,0,0,0.2);box-shadow:0 1px 3px 0 rgba(0,0,0,0.2)}
+.inshadow{-webkit-box-shadow:inset 0 2px 3px rgba(0,0,0,0.1);-moz-box-shadow:inset 0 2px 3px rgba(0,0,0,0.1);box-shadow:inset 0 2px 3px rgba(0,0,0,0.1)}
+.tshadow{text-shadow:1px 1px 0 #11737c}
+.noshadow{-webkit-box-shadow:0 0 0 0;-moz-box-shadow:0 0 0 0;box-shadow:0 0 0 0}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html,body,div,span,img,dl,dt,dd,ol,ul,li,table,tr,th,td,form,input{margin:0;padding:0;border:0;font-size:100%;font-family:"微軟正黑體",Arial,Calibri,Verdana,Geneva,sans-serif}
+body{font-family:"微軟正黑體",Arial,Calibri,Verdana,Geneva,sans-serif;margin:0;padding:0}
+p,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+ul li{list-style:none}
+table{font-family:"微軟正黑體",Arial,Calibri,Verdana,Geneva,sans-serif;border-collapse:collapse;border-spacing:0;margin:0;padding:0;border-style:none}
+th{font-weight:400}
+img{border-width:0}
+a,img{text-decoration:none;outline:none;behavior:expression(this.onFocus=this.blur())}
+a:hover,img:hover{color:#666;text-decoration:none}
+a,a:hover{-webkit-transition:all .35s ease-in-out;-moz-transition:all .35s ease-in-out;-o-transition:all .35s ease-in-out;-ms-transition:all .35s ease-in-out;transition:all .35s ease-in-out}
+button,input,textarea,select{font-family:"微軟正黑體",Arial,Calibri,Verdana,Geneva,sans-serif;font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal;*overflow:visible}
+table button,table input{*overflow:auto}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}
+textarea{resize:vertical}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+input:invalid,textarea:invalid{background-color:#eff0dd}
+
+.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden;font-size:0;line-height:0}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
