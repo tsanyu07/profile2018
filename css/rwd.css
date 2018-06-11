@@ -1,0 +1,383 @@
+@media(max-width:1800px){
+
+}
+
+
+@media(max-width:1200px){
+  .con .links-slider{width: 90%;left:5%;}
+  .con .contact_form .box:nth-child(1) dl{margin:5px 0;}
+}
+
+
+@media(max-width:1100px){
+.con .myform{width:92%;margin:0 auto;}
+}
+
+@media(max-width:1000px){
+   .product .product-slider .slick-list{margin-top: 50px;}
+
+
+}
+
+@media(max-width:960px){
+   body{min-width:auto;min-width:initial;}
+   section{width:100%;}
+  .product_ .wrap{overflow: hidden;}
+  .s_menu{display:block;}
+  .menu{display:none;}
+  .logo{margin-left: 20px;margin-top:28px;}
+  .s_menu{top:100px;}
+  header{height: 100px;}
+  header .s_ham{display:inline-block;}
+  .title_bg{top:100px;}
+  .con_tit h2{margin-left: 20px;}
+
+  .product .product-slider{width: 100%;padding:0 3%;}
+  .product{height: 550px;}
+  #section2 .slick-dots{bottom:-20px;}
+  .banner_dot{height: 100%;}
+  .con2{width: 100%;overflow: hidden;}
+  .con .links-slider .slick-prev{left:-3%;}
+  .con .links-slider .slick-next{right:-3%;}
+  
+  .con .contact_form .box dt{font-size: 15px;margin-bottom:6px;width:100%;}
+  .con .contact_form .box dd{width:100%;}
+  .con .myinfo{margin-bottom: 12px;}
+  .con .contact_form .box:nth-child(1) dl{margin:4px 0;}
+
+  footer .black{padding:40px;}
+  footer .footer_box{width: 31%;}
+  footer .footer_box img{width: 80%;height: auto;}
+
+  .con_tit{width: 100%;} 
+  .section2,.title_bg{width: 100%;padding-top:26%;height: initial;min-height: 100px;}
+
+  /*關於我們*/
+  .main p{width:100%;padding:0 20px;}
+  .product_ .con p{width:100%;padding:0 20px;}
+  .icon_all{padding:0 20px;}
+  .about_icon .icon p{font-size: 16px;}
+  .about_icon .icon b{font-size: 20px;}
+  .about_icon .icon+.icon{margin-left:3%;}
+  .about_icon .icon{width: 30%;padding:52px 7px;}
+  .about_icon .icon .icon_imgbox{width: 80%;margin:0 auto;}
+  .about_icon .icon .icon_imgbox img{width: 100%;height: 100%;}
+  
+  /*AVANT商品資訊*/
+  .section3{width: 100%;padding:0 2%;height:auto;}
+  .product_tab a{width:23%;}
+  .product2{width:100%;padding:0 4%;}
+  .prod_info-for .pic{padding-top: 60%;overflow: hidden;}
+  .prod_info-nav{padding: 2px 5%;}
+  .theinfo{}
+  .theinfo .info_box .item_row{font-size: 14px;}
+  .theinfo .info_box .item_row .item small{font-size: 13px;}
+  .theinfo .info_box .item_row .item{width: 36%;min-height:72px;}
+  .theinfo .info_box .item_row .info{width: 62%;}
+  .con .form_ps,.con .form_ps2{font-size: 14px;}
+  .con .form_ps{padding:0 4%;margin-top:0;margin-bottom:40px;}
+
+  /*AVANT下方商品輪播*/
+  .con2 .other_pro .avant-slider{padding:0 10%;}
+  .con2 .other_pro .avant-slider .slick-next{right: 38px;}
+  .con2 .other_pro .avant-slider .slick-prev{left: 38px;}
+
+  /*商品表格*/
+  .con .css_table,.con .css_table2{background: transparent;width:100%;padding:0 4%;}
+  .con .css_table .css_th,.con .css_table2 .css_th{display: none;}
+  .con .css_table .css_tr,.con .css_table2 .css_tr{display: block;margin-bottom: 30px;background: #fff;}
+  .con .css_table .css_td,.con .css_table2 .css_td{display: block;padding: 12px 15px;text-align: left;padding-left: 33%;position: relative;}
+  .con .css_table .css_td + .css_td,.con .css_table2 .css_td + .css_td{border-left:0;}
+  .con .css_table .css_td:before,.con .css_table2 .css_td:before{padding: 12px 15px;background: #ddd;width: 30%;display: block;position: absolute;top: 0;left: 0;height: 100%;box-sizing: border-box;font-size: 14px;}
+  .con .css_table .css_td:nth-child(1):before{content:'型號';background-color: #afafaf;border-right:1px dotted #ddd;}
+  .con .css_table .css_td:nth-child(2):before{content:'圖示';}
+  .con .css_table .css_td:nth-child(3):before{content:'馬力(Kw)';}
+  .con .css_table .css_td:nth-child(4):before{content:'操作重量(Kw)';}
+  .con .css_table .css_td:nth-child(5):before{content:'最大配件載重(Kg)';}
+  .con .css_table .css_td:nth-child(6):before{content:'噪音(db)';}
+  .con .css_table .css_td:nth-child(7):before{content:'最大工作高度(m)';}
+  .con .css_table .css_td:nth-child(8):before{content:'最大工作水平距離(mm)';}
+  .con .css_table .css_td:nth-child(9):before{content:'運輸尺寸 長x寬x高(mm)';}
+  .con .css_table .css_td:nth-child(1),.con .css_table2 .css_td:nth-child(1){border-bottom: none;}
+  .con .css_table .css_td:nth-child(2),.con .css_table2 .css_td:nth-child(2){border-top: none;}
+  .con .css_table2 .css_td:nth-child(1):before{content:'型號';background-color: #afafaf;border-right:1px dotted #ddd;}
+  .con .css_table2 .css_td:nth-child(2):before{content:'圖示';}
+  .con .css_table2 .css_td:nth-child(3):before{content:'適用機型';}
+  .con .css_table2 .css_td:nth-child(4):before{content:'工作重量(Kg)';}
+  .con .css_table2 .css_td:nth-child(5):before{content:'所需流量(Lpm)';}
+  .con .css_table2 .css_td:nth-child(6):before{content:'工作壓力(bar)';}
+  .con .css_table2 .css_td:nth-child(7):before{content:'打擊頻率 低速/高速(bpm)';}
+  .con .css_table2 .css_td:nth-child(8):before{content:'打擊能力 低速/高速(bpm)';}
+  .con .css_table2 .css_td:nth-child(9):before{content:'鑿頭直徑(mm)';}
+  .con .css_table2 .css_td:nth-child(10):before{content:'適配噸位(tonne)';}
+  .con .css_table .css_td br{display: none;}
+  .con .css_table .css_tr:last-child,.con .css_table2 .css_tr:last-child{margin-bottom: 10px;}
+  .product_ .con .my_btn{padding:3%;}
+  .con .mb_tab{display: block;width:100%;}
+  .con .mb_tab a{font-size: 18px;display: inline-block;width: 48%;font-weight: bold;color: #444;}
+  .con .mb_tab a:nth-child(1){border-right:1px dotted #999;}
+
+  .theinfo .item_row .item{width:18%;}
+  .theinfo .item_row,.theinfo .item_row .feat_box p{font-size: 14px;}
+  .theinfo .item_row .feat_box p{top:7px;}
+
+
+
+  /*商品Fancybox*/
+  .fcbox{width:86%;margin:0 auto;}
+  .fcbox .hd{padding:16px 0;font-size: 22px;}
+  .fcbox .movie_list{padding:6% 60px;}
+  .fcbox .movie_list ul li{font-size: 16px;}
+  .product_ .fancybox-close{right:10%;top:4.5%;}
+}
+
+@media(max-width:900px){
+	.product{height: 500px;}
+	.product .product-slider{height: 400px;}
+  footer .black li{font-size: 12px;}
+  footer .footer_box .footer_list a{font-size: 14px;}
+  footer .footer_box{width:38%;}
+  footer .footer_box2{width:30%;}
+  .con .avant_list .my_avant{width:30.5%;}
+  .con{padding: 60px 0;}
+  .con .avant_list .my_avant p{font-size: 19px;}
+  .con .avant_list .my_avant .red_new{width:83px;height: 83px;}
+  .con .product2 .product_tit h3{font-size: 27px;}
+  .prod_info-for .pic img{left:19%;width:65%;}
+  .con .css_table2 .css_td{min-height:47px;}
+}
+
+@media(max-width:800px){
+	.product{height: 460px;}
+	.product .product-slider{height: 360px;}
+  .con_tit h2{font-size:78px;bottom:-93px;}
+  .con_tit h2 small{font-size: 20px;}
+  .main p{font-size: 17px;margin-bottom:40px;}
+  .product_ .con p{font-size: 17px;margin-bottom:40px;}
+  .about_icon h3{font-size: 26px;}
+  .prod_info-nav .slick-prev,.prod_info-nav .slick-next{top:64px;}
+  .prod_info-nav .slick-prev{left:-30px;}
+  .prod_info-nav .slick-next{right:-30px;}
+}
+
+@media(max-width:740px){
+  .product_tab a{font-size:15px;line-height: 1.1;}
+  .theinfo .info_box{display: block;width: 100%;}
+  .theinfo .info_box .item_row .item{min-height: initial;}
+  .theinfo .item_row .item{width:36%;}
+  .theinfo .item_row .feat_box p{font-size: 13px;top:7px;}
+  .theinfo .item_row .feat_box .feat_icon{width: 28px;height: 28px;}
+  .theinfo .item_row .info{width:62%;}
+  .theinfo .item_row .feat_box{width: 32%;}
+
+}
+
+
+@media(max-width:700px){
+    .product{height: 420px;}
+    .product .product-slider{height: 305px;}
+
+    .con .contact_form .box{display: block;width:100%;padding-left:initial;padding:0 2%;}
+    .con .contact_info{padding:20px 30px;}
+    .con .contact_form .box dl{margin:5px 0;}
+    .con .myinfo .info_icon{width:28px;height: 28px;font-size: 18px;}
+    .con .myinfo p{font-size: 14px;}
+    .con .myinfo{margin-bottom:7px;}
+
+    .con_tit h2{font-size:72px;letter-spacing: 1px;bottom:-87px;}
+    .con_tit h2 small{font-size: 18px;}
+    .about_icon .icon{height: 330px;}
+    .con{padding: 55px 0;}
+    .con .avant_list .my_avant p{font-size: 17px;margin-top:6px;}
+    .con .avant_list .my_avant .red_new{width:70px;height: 70px;}
+    .con .form_ps,.con .form_ps2{font-size: 13px;}
+
+    .con .css_table .css_td:before,.con .css_table2 .css_td:before{width: 40%;}
+    .con .css_table .css_td,.con .css_table2 .css_td{padding-left: 45%;}
+}
+
+@media(max-width:680px){
+  footer .footer_box img{width: 100%;height: auto;}
+    footer .footer_box{display: block;width: 100%;margin-bottom: 20px;}
+    footer .footer_box .footer_logobox{padding:0 20%;text-align:center;}
+    footer .black .box_info{text-align:center;}
+    footer .black li{font-size: 14px;}
+    footer .footer_box+.footer_box{border-left: initial;}
+    footer .footer_box .footer_list li+li{margin-top:8px;padding-top:7px;border-top:1px dotted #757575;}
+    footer .footer_box .footer_list li:nth-child(1){border-top:none;}
+    footer .footer_box+.footer_box{padding-top: 20px;}
+    footer .footer_box2:nth-child(1){border-bottom:2px dotted #757575;}
+    .about_icon .icon p{margin-top: 27px;}
+    .con .avant_list{padding:0 4%;}
+    .con .avant_list .my_avant{width: 47%;}
+    .con .avant_list .my_avant .my_avant_info{padding:30px 8px;}
+
+}
+
+
+@media(max-width:600px){
+	 header{height:84px;}
+   .title_bg/*,.section2*/{top:84px;}
+   .logo{margin-left: 0px;margin-top:24px;}
+   .logo img{height: 35px;width: auto;}
+   header .s_ham a{margin-top:18px;}
+   .s_menu{top:84px;}
+   .product .product-slider .slick-list{margin-top: 35px;}
+   .con h2{font-size: 34px;}
+   .con h2 small{font-size: 20px;}
+   .con{padding: 40px 0;}
+   .con2{padding:0;}
+   .con .pro_tit h3{font-size: 33px;}
+   .con .pro_tit small{font-size: 18px;}
+   .con .pro_tit{top:58px;left:166px;}
+   .con .pro_btn{right:40px;}
+   .con .pro_box{width:90%;margin-bottom:14px;}
+   .con .pro_bg ,.con .pro_bgy{width:100%;}
+   footer .footer_box .footer_logobox{padding:0 15%;}
+   .con_tit h2{font-size:55px;letter-spacing: 0px;bottom:-74px;font-weight:normal;}
+   .con_tit h2 small{font-size: 17px;}
+   .about_icon h3{font-size: 21px;padding:0 20px;}
+   .product_tab{margin-top: 70px;}
+   .product_tab a+a{margin-left: 0;}
+   .product_tab a{display: block;width: 100%;padding-left: 5%;padding-right: 5%;margin-left:0;margin-bottom:6px;font-size:19px;}
+   .product_tab a br{display: none;}
+   .product_tab a small{margin-left: 5px;}
+   .con .product2 .product_tit h3{font-size: 24px;}
+   .prod_info-nav{padding: 2px 10%;}
+   .section3{padding:0 4%;}
+
+   .con2 .other_pro .avant-slider{padding:0 14%;}
+   .con2 .other_pro .avant-slider .slick-next{right: 25px;}
+   .con2 .other_pro .avant-slider .slick-prev{left: 25px;}
+   .con2 .other_pro .avant-slider .avant-pic{width: 79%;height: 61%;margin-top:16px;}
+
+   .con .css_table .css_td:before,.con .css_table2 .css_td:before{width: 50%;}
+   .con .css_table .css_td,.con .css_table2 .css_td{padding-left: 55%;}
+
+   .fcbox{width:90%;margin:0 auto;}
+   .fcbox .hd{padding:12px 0;font-size: 20px;}
+   .fcbox .movie_list{padding:4% 30px;}
+   .fcbox .movie_list ul li{font-size: 14px;}
+   .product_ .fancybox-close{top:4%;}
+   .fcbox .movie_list ul li a:before{top:6px;left:-11px;}
+
+   .con .product2 .product_tit .red_new{width: 95px;height: 95px;}
+   .theinfo .item_row .feat_box{display: block;width: 100%;margin-bottom:12px;}
+   .theinfo .item_row .item{min-height: 136px;}
+}
+
+@media(max-width:560px){
+    .product{height: 330px;}
+    .product .product-slider{height: 260px;}
+    .con #submit{display:inline-block;padding:14px 0;width: 100%;font-size: 15px;}
+    .con .contact_form .box dt{font-size: 14px;}
+    footer .footer_box .footer_logobox{padding:0 10%;}
+    .main p{font-size: 15px;margin-bottom:30px;}
+    .product_ .con p{font-size: 15px;margin-bottom:30px;}
+    .con .avant_list .my_avant p{font-size: 15px;line-height:1.2;}
+    .con .avant_list .my_avant .red_new{width:60px;height: 60px;}
+    .con .my_btn a+a{margin-left: 0px;}
+    .con .my_btn a{font-size: 15px;display: block;margin-bottom: 16px;width:100%;}
+    .con .my_btn{padding:0 4%;}
+
+    .con .css_table .css_td:before,.con .css_table2 .css_td:before{width: 40%;font-size: 13px;}
+    .con .css_table .css_td,.con .css_table2 .css_td{padding-left: 45%;font-size: 13px;}
+
+    .fcbox .movie_list ul li{width: 100%;}
+    .fcbox .movie_list ul{text-align: center;}
+    .fcbox .hd{font-size: 17px;}
+    .product_ .fancybox-close{top:3%;right:6%;}
+}
+
+@media(max-width:530px){
+    .con .pro_btn{display: none;}
+    .con .product2 .product_tit h3{font-size: 22px;}
+    .con .css_table .css_td:nth-child(8),.con .css_table .css_td:nth-child(9){min-height: 65px;}
+}
+
+
+@media(max-width:500px){
+    .product{height: 296px;}
+    .product .product-slider{height: 225px;}
+    .con h2{font-size: 29px;margin-bottom:20px;}
+    .con h2 small{font-size: 18px;}
+    .con .pro_tit h3{font-size: 30px;}
+    .con .pro_tit small{font-size: 16px;}
+    .con .pro_tit{top:60px;left:160px;}
+    .con .myinfo .info_icon{width:23px;height: 23px;font-size: 16px;}
+    .con .myinfo p{font-size: 14px;}
+    .con .myinfo{margin-bottom:7px;}
+    .con .contact_info{padding:20px 15px;}
+    footer .gotop{right:16px;bottom: 65px;}
+    footer .footer_box .footer_logobox{padding:0;}
+    footer .footer_box .footer_logobox img{min-width: 210px;}
+    .con .links-slider .slick-prev:after,.con .links-slider .slick-next:after{font:normal normal normal 14px/1  FontAwesome;}
+    .con .links-slider .slick-prev,.con .links-slider .slick-next{width:18px;height: 18px;}
+    .con_tit h2{font-size:57px;letter-spacing: -1px;bottom:-75px;}
+    .con_tit h2 small{font-size: 16px;}
+    .about_icon .icon+.icon{}
+    .about_icon .icon{/*padding-top: 30%;*/margin:0 auto;height: 190px;}
+    .about_icon .icon{display: block;width: 92%;margin-bottom: 20px;position: relative;}
+    .about_icon .icon .icon_imgbox{width: 40%;position: absolute;top:9%;left:13%;}
+    .about_icon .icon .icon_infobox{width: 45%;position: absolute;top:26%;right:2%;}
+    .product_tab a{font-size: 16px;}
+    .con .avant_list .my_avant .red_new{width:50px;height: 50px;}
+    .prod_info-nav .slick-prev,.prod_info-nav .slick-next{top:47px;}
+    .con .product2 .product_tit{padding:13px 0;}
+    .theinfo .info_box .item_row .info{width:100%;padding-left:40%;padding-right:2%;}
+    .theinfo .info_box .item_row .item{position:absolute;top:0;left:0;height:100%;}
+    .theinfo .info_box .item_row{position: relative;min-height: 77px;}
+    .con .product2 .product_tit .red_new{width: 85px;height: 85px;}
+
+}
+
+@media(max-width:410px){
+    .con .css_table .css_td:nth-child(5),.con .css_table .css_td:nth-child(7){min-height: 65px;}
+}
+
+
+@media(max-width:400px){
+    .product{height: 245px;}
+    .product .product-slider{height: 180px;}
+    .con .pro_pic{left:-30px;}
+    .con .pro_tit{top:47px;left:128px;}
+    .con .pro_tit h3{font-size: 27px;line-height: 1;}
+    .con .pro_tit small{font-size: 15px;}
+    .con .pro_box{height: 146px;}
+    .con_tit h2{font-size:40px;letter-spacing: -1px;bottom:-63px;}
+    .con_tit h2 small{font-size: 14px;}
+    .about_icon .icon{height: 170px;}
+    .about_icon .icon .icon_imgbox{top:13%;}
+    .about_icon .icon .icon_infobox{top:21%;}
+    .prod_info-nav .slick-prev,.prod_info-nav .slick-next{top:40px;}
+    .prod_info-nav .slick-next:after,.prod_info-nav .slick-prev:after{font:normal normal normal 17px/1 FontAwesome;}
+    .prod_info-nav .slick-prev, .prod_info-nav .slick-next{width: 23px;height: 23px;}
+    .con .css_table2 .css_td:nth-child(10){min-height:64px;}
+    .con .product2 .product_tit .red_new{width: 76px;height: 76px;}
+}
+
+@media(max-width:360px){
+   .logo{margin-left: 17px;width: 186px;height: 28px;margin-top:27px;}
+   .logo img{height: 28px;width: auto;}
+   header .s_ham a{margin-top: 21px;width:40px;height: 40px;padding:8px 0;}
+   .con .pro_pic{left:-35px;}
+   .con .pro_tit{top:44px;left:104px;}
+   .con .pro_tit h3{font-size: 25px;line-height: 1;}
+   .con .pro_tit small{font-size: 14px;letter-spacing: initial;}
+   .con .pro_box{height: 136px;margin-bottom:13px;}
+   .con .myinfo .info_icon{display: block;margin:0 auto;}
+   .about_icon .icon{height: 132px;}
+   .about_icon .icon .icon_imgbox{top:7%;}
+   .about_icon .icon p{font-size: 14px;}
+   .about_icon .icon b{font-size: 18px;}
+}
+
+
+@media(max-width:350px){
+   .con .css_table2 .css_td:nth-child(5),.con .css_table2 .css_td:nth-child(9){min-height:64px;}
+   .con .css_table2 .css_td:nth-child(7),.con .css_table2 .css_td:nth-child(8){min-height:81px;}
+}
+
+@media(max-width:347px){
+   .con .css_table2 .css_td:nth-child(6){min-height:64px;}
+}
