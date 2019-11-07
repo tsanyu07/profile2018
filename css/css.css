@@ -65,5 +65,12 @@ nav li a:hover{border-bottom: 1px solid #757575;color:#5593b7;}
 footer{border-top: 1px solid #eee;}
 .copy{padding:50px 0;font-size: 13px;color:#aeaeae;letter-spacing: 1px;}
 
+.ui-widget.ui-widget-content {border-color:transparent;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+border-color: transparent;background-color:transparent;
+}
+.tabs_box ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header{margin:auto;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{border-color: transparent;background-color:transparent;}
+
 
 
