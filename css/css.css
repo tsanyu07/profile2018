@@ -51,7 +51,8 @@ nav li a:hover{border-bottom: 1px solid #757575;color:#5593b7;}
 .tabs_box li a{font-size: 16px;color:#999;border-bottom: 1px solid #FFF;display: inline-block;padding-bottom: 10px;}
 .work_main .tabs_box .ui-state-active a,.work_main .tabs_box .ui-widget-content .ui-state-active a,.work_main .tabs_box .ui-widget-header .ui-state-active a{color:#333;border-bottom: 1px solid #333;}
 
-.work_con{font-size: 0;margin:0 -10px;text-align: left;}
+.work_con{font-size: 0;margin:120px -10px;text-align: left;}
+.work_con h2{font-size: 26px; text-align: center;margin-bottom: 30px;font-weight: 400;}
 .work_box{width: 31.33%;font-size: 0;margin: 0 1%;position: relative;height: 300px;display: inline-block;text-align: left;}
 .work_box .all{border:1px solid #eee;}
 .work_box a{position: absolute;top: 0;left: 0;display: block;cursor:pointer;}
@@ -64,13 +65,6 @@ nav li a:hover{border-bottom: 1px solid #757575;color:#5593b7;}
 
 footer{border-top: 1px solid #eee;}
 .copy{padding:50px 0;font-size: 13px;color:#aeaeae;letter-spacing: 1px;}
-
-.ui-widget.ui-widget-content {border-color:transparent;}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-border-color: transparent;background-color:transparent;
-}
-.tabs_box ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header{margin:auto;}
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{border-color: transparent;background-color:transparent;}
 
 
 
