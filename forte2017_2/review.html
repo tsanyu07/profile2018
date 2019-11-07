@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	
+<!--for ie-->
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=10; IE=9; IE=8;" />
+<meta charset="UTF-8">
+
+<title>FORTE 紫要青春 凍齡藏寶盒</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!--meta info-->
+<meta name="author" content="">
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta property="og:title" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:site_name" content="">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_tw">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+<link rel="stylesheet" href="theme/tw/css/reset.css">
+<link rel="stylesheet" href="theme/tw/css/css.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type='text/javascript' src='js/jquery-imgLiquid.min.js'></script>
+<script type='text/javascript' src="js/jquery.placeholder.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
+
+<!-- slick -->
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+
+<!-- scrollreveal -->
+<script src="js/scrollreveal.js" type="text/javascript"></script>
+
+<!-- 內卷軸 -->
+<script src="js/nicescroll/jquery.nicescroll.js"></script>
+
+<!--[if IE]>
+    <script>
+        document.createElement("header");
+        document.createElement("menu");
+        document.createElement("nav");
+        document.createElement("section");
+        document.createElement("article");
+        document.createElement("aside");
+        document.createElement("figure");
+        document.createElement("hgroup");
+        document.createElement("footer");
+        document.createElement("address");
+    </script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+<![endif]-->
+
+
+
+<script type="text/javascript">
+$(function(){
+
+    /*placeholder*/
+    $('input, textarea').placeholder();
+
+    // 自動裁圖
+    $('.imgLiquid').imgLiquid({
+        fill: true, horizontalAlign: "center", verticalAlign: "center"
+    });
+
+
+    /*fancybox*/
+    $('.fancybox').fancybox({
+        padding:0,
+
+        helpers: {
+          overlay: {
+          locked: true
+          }
+        }
+    });
+
+    ////偵測是否為 mobile
+    var thisdevice = navigator.userAgent;
+    if(!thisdevice.match(/(iPhone|iPod|iPad|Android)/)){
+      $('.ppl_review').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        vertical: true,
+        verticalSwiping:true,
+        dots: true,
+        prevArrow:'<button type="button" class="slick-prev"></button>',
+        nextArrow:'<button type="button" class="slick-next"></button>',
+
+        responsive: [
+          {
+            breakpoint: 720,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            }
+          },
+          {
+            breakpoint: 421,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows:false,
+            }
+          }
+        ]
+      });
+    }		
+});
+</script>
+
+
+</head>
+
+<body class="review">
+<div class="wrap">
+	<?php include_once('_header.php'); ?>
+	<div class="main">
+		<div class="content">
+			<div class="con con1">
+				<div class="review_box">
+					<h2>
+						<img src="theme/tw/images/review_tit.png" alt="青春有感見證" title="青春有感見證">
+					</h2>
+
+					<ul class="ppl_review">
+						<li class="w33">
+							<div class="box">
+								<div class="left">
+									<div class="pic imgLiquid">
+										<img src="theme/tw/images/ppl1.jpg">
+									</div>
+									<div class="name">
+										Sandy
+									</div>
+								</div>
+
+								<!--最多200字-->
+								<div class="right">
+									復是術常：皮成上坐利企從頭陸們程心子他學白頭以美，一步的我一校費廣當指臺發因日些；當最次人光們第，減到道死世的日體。民可服加義意？司式在響光黨我無法果高幾統一積斷學光，不到位等，代第英進的院樣受包臺命校，臺以團，資成更出化，連要？<br>
+									可師你細為，們得星不線檢禮達前謝選。天功分大結多其旅遠個山排的，組我色果劇本以性上影的單國時表空係教中人頭家想便他痛連最子經，精的的提裡起亞化在書一感間。
+								</div>
+							</div>
+						</li>
+
+						<li class="w33">
+							<div class="box">
+								<div class="left">
+									<div class="pic imgLiquid">
+										<img src="theme/tw/images/ppl2.jpg">
+									</div>
+									<div class="name">
+										Sandy
+									</div>
+								</div>
+
+								<!--最多200字-->
+								<div class="right">
+									復是術常：皮成上坐利企從頭陸們程心子他學白頭以美，一步的我一校費廣當指臺發因日些；當最次人光們第，減到道死世的日體。民可服加義意？司式在響光黨我無法果高幾統一積斷學光，不到位等，代第英進的院樣受包臺命校，臺以團，資成更出化，連要？<br>
+									可師你細為，們得星不線檢禮達前謝選。天功分大結多其旅遠個山排的，組我色果劇本以性上影的單國時表空係教中人頭家想便他痛連最子經，精的的提裡起亞化在書一感間。
+								</div>
+							</div>
+						</li>
+
+						<li class="w33">
+							<div class="box">
+								<div class="left">
+									<div class="pic imgLiquid">
+										<img src="theme/tw/images/ppl3.jpg">
+									</div>
+									<div class="name">
+										Sandy
+									</div>
+								</div>
+
+								<!--最多200字-->
+								<div class="right">
+									復是術常：皮成上坐利企從頭陸們程心子他學白頭以美，一步的我一校費廣當指臺發因日些；當最次人光們第，減到道死世的日體。民可服加義意？司式在響光黨我無法果高幾統一積斷學光，不到位等，代第英進的院樣受包臺命校，臺以團，資成更出化，連要？<br>
+									可師你細為，們得星不線檢禮達前謝選。天功分大結多其旅遠個山排的，組我色果劇本以性上影的單國時表空係教中人頭家想便他痛連最子經，精的的提裡起亞化在書一感間。
+								</div>
+							</div>
+						</li>
+
+						<li class="w33">
+							<div class="box">
+								<div class="left">
+									<div class="pic imgLiquid">
+										<img src="theme/tw/images/ppl1.jpg">
+									</div>
+									<div class="name">
+										Sandy
+									</div>
+								</div>
+
+								<!--最多200字-->
+								<div class="right">
+									復是術常：皮成上坐利企從頭陸們程心子他學白頭以美，一步的我一校費廣當指臺發因日些；當最次人光們第，減到道死世的日體。民可服加義意？司式在響光黨我無法果高幾統一積斷學光，不到位等，代第英進的院樣受包臺命校，臺以團，資成更出化，連要？<br>
+									可師你細為，們得星不線檢禮達前謝選。天功分大結多其旅遠個山排的，組我色果劇本以性上影的單國時表空係教中人頭家想便他痛連最子經，精的的提裡起亞化在書一感間。
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="bg imgLiquid">
+				<img src="theme/tw/images/pg_bg2.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php include_once('_footer.php'); ?>
+
+</body>
+</html>
